@@ -1,0 +1,58 @@
+*{
+    background-color: bisque;
+}
+.stopwatch {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .lap-times {
+    text-align: left;
+  }
+  
+  .lap-times h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
